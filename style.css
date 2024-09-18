@@ -1,0 +1,292 @@
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-box {
+    display: flex;
+    align-items: center;
+}
+.root {
+    display: flex;
+    background: #FFF;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.root-logo {
+    margin-right: 93px;
+    color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+} 
+.span-logo {
+    color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+.root-list {
+    display: flex;
+    gap: 50px;
+}
+.root-list-a {
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.root-list-a:hover {
+    color: #2196F3;
+}
+.root-list2 {
+    margin-left: auto;
+    display: flex;
+    gap: 50px;
+}
+.root-list2-a {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.root-list2-a:hover {
+    color: #2196F3;
+}
+.hero {
+    text-align: center;
+    background-image: url(./img/main-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.headline {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 696px;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 2.64px;
+text-transform: uppercase;
+}
+.hero-button {
+    border-radius: 4px;
+    border: none;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 32px;
+padding-right: 32px;
+}
+.main {
+    padding-top: 94px;
+}
+.main-list {
+    display: flex;
+    gap: 30px;
+}
+.main-li::before {
+    background-image: url(./img/antenna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+    margin-bottom: 30px;
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color:#F5F4FA ;
+    display: block;
+}
+.main-li:nth-child(2)::before {
+    background-image: url(./img/clock.png);
+}
+.main-li:nth-child(3)::before {
+    background-image: url(./img/diagram.png);
+}
+.main-li:nth-child(4)::before {
+    background-image: url(./img/astronaut.png);
+}
+.main img {
+border-radius: 4px;
+background: #F5F4FA;
+}
+.main h3 {
+    margin-bottom: 10px;
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.main p {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.work-headline {
+    margin-bottom: 50px;
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.work-ul {
+    display: flex;
+    gap: 30px;
+}
+.work-ul img {
+    width: 370px;
+height: 294px;
+}
+.team {
+background: #F5F4FA;
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.team-headline {
+    margin-bottom: 50px;
+    align-items: center;
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.team-ul {
+    display: flex;
+    gap: 30px;
+}
+.team-ul img {
+    width: 270px;
+height: 260px;
+}
+.team-li {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+background: #FFF;
+}
+.team-name {
+    margin-bottom: 10px;
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.team-text {
+    color: #757575;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.footer {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-logo {
+color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+.footer-span {
+    color: #FFF;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+.footer-adress {
+    margin-top: 20px;
+    font-style: normal;
+}
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.footer-li:first-child>.footer-link {
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+.footer-link {
+    color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
