@@ -217,7 +217,7 @@ height: 260px;
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 0px 0px 4px 4px;
-background: #FFF;
+background: #000000;
 }
 .team-name {
     margin-bottom: 10px;
@@ -239,6 +239,32 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
+}
+.team-svg {
+align-items: center;
+}
+.svg-ul {
+    margin-left: 44px;
+    margin-top: 28px;
+    display: flex;
+gap: 34px;
+}
+.svg-instagram {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+.svg-twitter {
+    width: 20px;
+height: 20px;
+}
+.svg-facebook {
+    width: 20px;
+height: 20px;
+}
+.svg-linkedin {
+    width: 20px;
+    height: 20px;
 }
 .footer {
     background: #2F303A;
