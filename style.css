@@ -56,6 +56,11 @@ letter-spacing: 0.28px;
     display: flex;
     gap: 30px;
 }
+.root-list2-a:hover {
+    .svg-mail {
+        fill: #2196F3;
+    }
+}
 .svg-mail {
     margin-right: 10px;
     width: 16px;
@@ -63,11 +68,18 @@ height: 12px;
 flex-shrink: 0;
 fill: #757575;
 }
+.svg-mail:hover{
+    fill: #2196F3;
+}
 .svg-phone {
     width: 10px;
 height: 16px;
 flex-shrink: 0;
 margin-right: 10px;
+fill: #757575;
+}
+.svg-phone:hover {
+    fill: #2196F3;
 }
 .root-list2-a {
     color: #757575;
@@ -80,6 +92,24 @@ letter-spacing: 0.28px;
 }
 .root-list2-a:hover {
     color: #2196F3;
+    .svg-mail {
+    fill: #2196F3;
+    }
+}
+.root-list2-b {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.root-list2-b:hover {
+    color: #2196F3;
+    .svg-phone{
+        fill: #2196F3;
+    }
 }
 .hero {
     text-align: center;
@@ -300,37 +330,31 @@ line-height: normal;
 letter-spacing: 0.48px;
 }
 .team-svg {
-align-items: center;
+width: 20px;
+height: 20px;
+fill: #AFB1B8;
+}
+.team-link {
+    background: #FFF;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-link:hover {
+    background: #2196F3;
+    .team-svg {
+        fill: #FFF;
+    }
 }
 .svg-ul {
     margin-left: 44px;
     margin-top: 28px;
     display: flex;
 gap: 34px;
-}
-.svg-instagram {
-    width: 20px;
-    height: 20px;
-    fill: #AFB1B8;
-}
-#svg-instagram {
-top: 35px;
-left: 13px;
-}
-#svg-eclipse {
-    opacity: 0.7;
-}
-.svg-twitter {
-    width: 20px;
-height: 20px;
-}
-.svg-facebook {
-    width: 20px;
-height: 20px;
-}
-.svg-linkedin {
-    width: 20px;
-    height: 20px;
 }
 .clients {
     text-align: center;
@@ -361,9 +385,16 @@ height: 92px;
 border-radius: 4px;
 border: 1px solid #AFB1B8;
 }
+.clients-li:hover {
+    border-color: #2196F3;
+    .svg-logo1 {
+        fill: #2196F3;
+    }
+}
 .svg-logo1 {
     width: 106px;
     height: 60px;
+    fill: #AFB1B8;
 }
 .footer {
     background: #2F303A;
@@ -440,4 +471,18 @@ text-transform: uppercase;
 .svg-footer-link {
     width: 20px;
     height: 20px;
+    fill: #FFFFFF;
+}
+.footer-svg {
+    background: rgba(255, 255, 255, 0.10);
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer.svg:hover {
+    background: #2196F3;
 }
