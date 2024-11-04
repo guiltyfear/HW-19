@@ -56,9 +56,19 @@ letter-spacing: 0.28px;
     display: flex;
     gap: 30px;
 }
+.root-list2-a {
+    display: flex;
+    align-items: center;
+}
 .root-list2-a:hover {
     .svg-mail {
         fill: #2196F3;
+    }
+}
+.root-item:last-child {
+    .svg-mail {
+        width: 10px;
+        height: 16px;
     }
 }
 .svg-mail {
@@ -228,15 +238,10 @@ letter-spacing: 1.08px;
     width: 370px;
 height: 294px;
 }
-.work-div2 {
-    position: absolute;
+.work-headline1 {
     background: rgba(47, 48, 58, 0.80);
-    width: 370px;
-height: 70px;
-margin-top: 224px;
-}
-.work-headline2 {
-    position: absolute;
+    padding: 27px 0;
+    width: 100%;
     color: #FFF;
 text-align: center;
 font-family: Roboto;
@@ -246,32 +251,11 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
-margin-top: 27px;
-margin-left: 107px;
+position: absolute;
+bottom: 0;
 }
-.work-headline3 {
-    color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-margin-top: 27px;
-}
-.work-headline4 {
-    margin-top: 27px;
-    color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+.work-item {
+    position: relative;
 }
 .team {
 background: #F5F4FA;
@@ -330,15 +314,15 @@ line-height: normal;
 letter-spacing: 0.48px;
 }
 .team-svg {
-width: 20px;
-height: 20px;
+width: 40px;
+height: 40px;
 fill: #AFB1B8;
 }
 .team-link {
     background: #FFF;
     display: flex;
-    width: 20px;
-    height: 20px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -351,10 +335,10 @@ fill: #AFB1B8;
     }
 }
 .svg-ul {
-    margin-left: 44px;
-    margin-top: 28px;
     display: flex;
-gap: 34px;
+    justify-content: center;
+gap: 10px;
+margin-top: 16px;
 }
 .clients {
     text-align: center;
@@ -379,9 +363,11 @@ gap: 34px;
 }
 .clients-li {
     padding-top: 16px;
+    padding-right: 32px;
     padding-bottom: 16px;
+    padding-left: 32;
     width: 170px;
-height: 92px;
+    height: 92px;
 border-radius: 4px;
 border: 1px solid #AFB1B8;
 }
@@ -391,7 +377,16 @@ border: 1px solid #AFB1B8;
         fill: #2196F3;
     }
 }
+ .clients-link {
+    padding-top: 60px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 10px;
+    width: 170px;
+    height: 92px;
+}
 .svg-logo1 {
+padding-right: 32px;
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
@@ -450,7 +445,7 @@ letter-spacing: 0.42px;
     display: flex;
 }
 .footer-div3 {
-    padding-left: 70px;
+    margin-left: 70px;
 }
 .footer-headline {
     padding-top: 10px;
@@ -464,25 +459,25 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 }
 .footer-ul1 {
-    margin-top: 32px;
-    gap: 34px;
+    margin-top: 20px;
+    gap: 10px;
     display: flex;
 }
 .svg-footer-link {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     fill: #FFFFFF;
 }
 .footer-svg {
     background: rgba(255, 255, 255, 0.10);
     display: flex;
-    width: 20px;
-    height: 20px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer.svg:hover {
+.footer-svg:hover {
     background: #2196F3;
 }

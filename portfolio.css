@@ -4,6 +4,7 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    /* outline: 1px solid red; */
 }
 .header-box {
     display: flex;
@@ -55,9 +56,19 @@ letter-spacing: 0.28px;
     display: flex;
     gap: 30px;
 }
+.root-list2-a {
+    display: flex;
+    align-items: center;
+}
 .root-list2-a:hover {
     .svg-mail {
         fill: #2196F3;
+    }
+}
+.root-item:last-child {
+    .svg-mail {
+        width: 10px;
+        height: 16px;
     }
 }
 .svg-mail {
@@ -109,48 +120,6 @@ letter-spacing: 0.28px;
     .svg-phone{
         fill: #2196F3;
     }
-}
-.span-logo {
-    color: #000;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
-}
-.root-list {
-    display: flex;
-    gap: 50px;
-}
-.root-list-a {
-    color: #212121;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-}
-.root-list-a:hover {
-    color: #2196F3;
-}
-.root-list2 {
-    margin-left: auto;
-    display: flex;
-    gap: 50px;
-}
-.root-list2-a {
-    color: #757575;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-}
-.root-list2-a:hover {
-    color: #2196F3;
 }
 .hero {
     padding-top: 94px;
@@ -295,7 +264,7 @@ letter-spacing: 0.42px;
     display: flex;
 }
 .footer-div3 {
-    padding-left: 70px;
+    margin-left: 70px;
 }
 .footer-headline {
     padding-top: 10px;
@@ -309,25 +278,25 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 }
 .footer-ul1 {
-    margin-top: 32px;
-    gap: 34px;
+    margin-top: 20px;
+    gap: 10px;
     display: flex;
 }
 .svg-footer-link {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     fill: #FFFFFF;
 }
 .footer-svg {
     background: rgba(255, 255, 255, 0.10);
     display: flex;
-    width: 20px;
-    height: 20px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer.svg:hover {
+.footer-svg:hover {
     background: #2196F3;
 }
