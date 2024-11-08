@@ -604,6 +604,7 @@ margin-left: 10px;
   opacity: 0;
 }
 .modal {
+  position: relative;
   border-radius: 4px;
   background: #fff;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
@@ -695,6 +696,10 @@ left: 12px;
   width: 16px;
   height: 15px;
 }
+.modal-checkbox:hover,.modal-checkbox:focus {
+  border: none;
+  outline: 0px solid transparent;
+}
 .modal-link {
   color: #2196f3;
   font-size: 14px;
@@ -702,6 +707,10 @@ left: 12px;
   line-height: 24px;
   letter-spacing: 0.42px;
   text-decoration-line: underline;
+}
+.modal-link:hover,.modal-link:focus {
+  border: solid none;
+  outline: 0px solid transparent;
 }
 .modal-span {
   color: #757575;
@@ -751,6 +760,8 @@ margin-left: 124px;
   align-items: center;
   justify-content: center;
  position: absolute;
+ top: 8px;
+ right: 8px;
 }
 .modal-exit {
   width: 18px;
