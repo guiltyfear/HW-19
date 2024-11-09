@@ -58,6 +58,24 @@
   border: none;
   outline: 0px solid transparent;
 }
+.root-list-a:hover::after {
+  opacity: 1;
+}
+.root-item {
+  position: relative;
+}
+.root-list-a::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background-color: #2196F3;
+  position: absolute;
+  left: 0;
+  top: 46px;
+  border-radius: 2px;
+  width: 100%;
+  opacity: 0;
+}
 .root-list2 {
   margin-left: auto;
   display: flex;
