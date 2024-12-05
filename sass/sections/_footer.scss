@@ -1,0 +1,112 @@
+
+.footer {
+    background: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer-logo {
+    color: #2196f3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+  .footer-span {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+  .footer-logo:focus {
+      border: none;
+    outline: 0px solid transparent;
+  }
+  .footer-adress {
+    margin-top: 20px;
+    font-style: normal;
+  }
+  .footer-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .footer-li:first-child > .footer-link {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    border: none;
+    outline: 0px solid transparent;
+  }
+  .footer-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+  }
+  .footer-link:focus {
+    border: none;
+    outline: 0px solid transparent;
+  }
+  .footer-div1 {
+    display: flex;
+    align-items: baseline;
+  }
+  .footer-div3 {
+    margin-left: 70px;
+  }
+  .footer-headline {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  .footer-ul1 {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+  }
+  .svg-footer-link {
+    width: 40px;
+    height: 40px;
+    fill: #ffffff;
+  }
+  .footer-svg {
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-svg:hover,
+  .footer-svg:focus {
+    background: #2196f3;
+    border: none;
+    outline: 0px solid transparent;
+    background: #2196F3;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+  .footer-div4 {
+    display: flex;
+  }
